@@ -1,4 +1,3 @@
-![Uploading Capture d'écran 2026-05-12 235834.png…]()
 # Java Vector Paint Application
 
 ## Overview
