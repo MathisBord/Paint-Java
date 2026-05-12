@@ -21,9 +21,11 @@ jobs:
           mkdir out
           javac -d out src/model/*.java src/viewcontrol/*.java src/Main.java
       - name: Create Manifest
-        run: echo "Main-Class: Main" > manifest.txt
+        run: |
+          echo "Main-Class: Main" > manifest.txt
       - name: Build JAR
-        run: jar cvfm Paint.jar manifest.txt -C out .
+        run: |
+          jar cvfm Paint.jar manifest.txt -C out .
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
