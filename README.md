@@ -1,8 +1,11 @@
+![Uploading Capture d'écran 2026-05-12 235834.png…]()
 # Java Vector Paint Application
 
 ## Overview
 
 This project is a vector-based drawing application built using Java and the Swing GUI toolkit. It aims to replicate the core functionalities of classic drawing software like MS Paint while relying heavily on Object-Oriented Programming (OOP) principles. Because the application uses a vector-based approach, every drawn element is stored as an independent mathematical object rather than a collection of flat pixels.
+
+<img width="1920" height="1032" alt="Capture d&#39;écran 2026-05-12 235834" src="https://github.com/user-attachments/assets/28710b50-433f-4465-a4f4-4753fd06520a" />
 
 ## Architecture and Structure
 
