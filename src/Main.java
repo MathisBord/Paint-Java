@@ -1,9 +1,9 @@
 import viewcontrol.Window;
-
 import javax.swing.*;
 
-void main() {
-    JFrame myWindow = new Window();
-    myWindow.setVisible(true);
+public class Main {
+    public static void main(String[] args) {
+        JFrame myWindow = new Window();
+        myWindow.setVisible(true);
     }
-
+}
